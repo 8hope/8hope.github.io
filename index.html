@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal rclone backup</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Personal rclone backup</h1>
+<p>This is a private, single-user Google OAuth client for <a href="https://rclone.org/">rclone</a>, the open-source command-line tool for syncing files to cloud storage. It is used by one person to back up their own files from their own computer to their own Google Drive.</p>
+<p>The backup runs on a schedule on that computer. Files are encrypted on the computer with rclone's crypt feature before they are uploaded, so Google Drive only ever holds encrypted copies. The app is not offered to anyone else and there is no server, website login or account to sign up for.</p>
+<p>Access requested from Google:</p>
+<ul>
+<li><code>drive.file</code>: create and manage the backup files that this app itself uploads.</li>
+<li><code>drive</code>: used only by the owner, from the command line, to place and check files in their own Drive.</li>
+</ul>
+<p>Read the <a href="https://8hope.github.io/privacy.html">privacy policy</a> and the <a href="https://8hope.github.io/terms.html">terms of service</a>.</p>
+<footer>Not affiliated with Google LLC or the rclone project.</footer>
+</main>
+</body>
+</html>
